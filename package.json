@@ -2,6 +2,7 @@
   "name": "sam-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sameeksha804.github.io/portfolio",
   "dependencies": {
     "cra-template-pwa-typescript": "2.0.0",
     "framer-motion": "^12.10.5",
@@ -14,7 +15,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
