@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="circuit" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M10 10h30M10 25h30M10 40h30" stroke="currentColor" stroke-width="1" fill="none"/>
+      <path d="M10 10v30M25 10v30M40 10v30" stroke="currentColor" stroke-width="1" fill="none"/>
+      <circle cx="10" cy="10" r="2" fill="currentColor"/>
+      <circle cx="25" cy="10" r="2" fill="currentColor"/>
+      <circle cx="40" cy="10" r="2" fill="currentColor"/>
+      <circle cx="10" cy="25" r="2" fill="currentColor"/>
+      <circle cx="25" cy="25" r="2" fill="currentColor"/>
+      <circle cx="40" cy="25" r="2" fill="currentColor"/>
+      <circle cx="10" cy="40" r="2" fill="currentColor"/>
+      <circle cx="25" cy="40" r="2" fill="currentColor"/>
+      <circle cx="40" cy="40" r="2" fill="currentColor"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="100" height="100" fill="url(#circuit)"/>
+</svg> 
